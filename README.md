@@ -36,8 +36,8 @@ The system preprocesses network-related data, applies multiple ML models, evalua
 
 ## 📂 Project Structure
 
+```
 cyber-attack-detection-ml/
-.
 ├── README.md
 ├── requirements.txt
 ├── train_model.ipynb
@@ -51,6 +51,7 @@ cyber-attack-detection-ml/
 │   └── index.html
 └── static/
     └── style.css
+```
 
 ## ⚙️ How to Run the Project
 
