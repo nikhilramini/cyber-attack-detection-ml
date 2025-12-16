@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cyber Attack Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Cyber Attack Detection System</h1>
+
+    <form action="/predict" method="post">
+        <input type="text" name="f1" placeholder="Feature 1" required>
+        <input type="text" name="f2" placeholder="Feature 2" required>
+        <input type="text" name="f3" placeholder="Feature 3" required>
+        <input type="text" name="f4" placeholder="Feature 4" required>
+
+        <button type="submit">Predict Attack</button>
+    </form>
+
+    <h2>{{ prediction_text }}</h2>
+</body>
+</html>
